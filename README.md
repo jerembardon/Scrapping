@@ -10,11 +10,10 @@ Before Production mode don't forget to add .env file to .gitignore file.
 ## Requirement 
 
 For this project you need to have installed on your local computer:
-    
-    * MongoDb --> (Installation guide: https://docs.mongodb.com/manual/administration/install-community/).
-    * NodeJs (https://nodejs.org/en/).
-    * Npm (https://www.npmjs.com/get-npm).
-    * Robo 3T (Software for monitoring NoSql Database https://robomongo.org/download) **[Optional]**.
+- MongoDb --> (Installation guide: https://docs.mongodb.com/manual/administration/install-community/).
+- NodeJs (https://nodejs.org/en/).
+- Npm (https://www.npmjs.com/get-npm).
+- Robo 3T (Software for monitoring NoSql Database https://robomongo.org/download) **[Optional]**.
 
 
 ## Installation
@@ -30,9 +29,9 @@ Then go to the **frontend** folder and do the same.
 
 For launching the app you have different steps:
 
-    1 - Launch your mongoDB database (with mongod and then mongo in 2 different terminals if you have mongo set in you environnement variables).
-    2 - Go to backend and launch the server with ```npm start```
-    3 - Do the same in the frontend folder
+    1- Launch your mongoDB database (with mongod and then mongo in 2 different terminals if you have mongo set in you environnement variables).
+    2- Go to backend and launch the server with ```npm start```
+    3- Do the same in the frontend folder
 
 **!WARNING!**
 Take care about .env file in the backend folder, you have the Database url and also the frontend url variables used in _./backend/app.js_ for CORS and database connection.
