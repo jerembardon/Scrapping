@@ -1,0 +1,19 @@
+### FRONTEND ###
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# production
+frontend/build
+
+# misc
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+### BACKEND ###
+backend/node_modules
+
+# misc
+backend/.DS_Store
