@@ -2,7 +2,7 @@
 
 This code need to be tested for production before deployment using jest for react and Mocha for node JS.
 
-This application is just a really fast POC for a client who want to scrap Data easily from a given website. 
+This application is just a really fast POC for a client who wants to scrap Data easily from a given website. 
 
 **!WARNING!**
 Before Production mode don't forget to add .env file to .gitignore file.
